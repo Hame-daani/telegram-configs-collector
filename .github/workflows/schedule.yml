@@ -1,6 +1,7 @@
 name: Execute On Schedule
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '30 * * * *' # Executes at 30 minutes past the hour.
     
